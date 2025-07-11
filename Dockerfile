@@ -1,11 +1,11 @@
-# Use an official OpenJDK runtime as a parent image
+git # Use an official OpenJDK runtime as a parent image
 FROM openjdk:11-jdk-slim
 # Set the working directory inside the container
 WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . .
 # Compile the Java program
-RUN javac SampleName.java
+RUN javac samplename.java
 # Command to run the program
-CMD ["java", "SampleName"]
+CMD ["java", "samplename"]
 

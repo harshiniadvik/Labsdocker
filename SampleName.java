@@ -1,4 +1,4 @@
-public class SampleName {
+git rpublic class samplename {
     public static void main(String[] args) {
         // Declare a variable to hold the name
         String name = "Johny";
