@@ -1,4 +1,4 @@
-git public class samplename {
+public class samplename {
     public static void main(String[] args) {
         // Declare a variable to hold the name
         String name = "Johny";
